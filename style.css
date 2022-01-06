@@ -1,9 +1,3 @@
-
-/*
-.footer{font-family: 'Lobster', cursive;
-}*/
-
-
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -15,10 +9,12 @@ body{
       font-size: 50px;
   }
   
-section{
+  section{
+      margin-bottom: 80px;
+  }
+.template{
     margin-left: 130px;
     margin-right: 130px;
-    margin-bottom: 130px;
 }
 .flexable-container{
     display: flex;
@@ -28,6 +24,15 @@ section{
 }
 .mission-color{
     color: #FF5959;
+}
+
+.link-btn{
+    text-decoration: none;
+    background: #FFAD5A;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    
 }
 
 /*top banner section start*/
@@ -72,15 +77,6 @@ section{
     margin-bottom: 25px;
 }
 
-.link-btn{
-    text-decoration: none;
-    background: #FF5959;
-    border-radius: 5px;
-    color: white;
-    padding: 10px 30px;
-    
-}
-
 /*<!--Mission banner section Start-->*/
 
 .mission-banner-header{
@@ -88,7 +84,8 @@ section{
 }
 .mission-banner-item{
     border-radius: 26px;
-    margin-right: 24px;
+    margin-right: 12px;
+    margin-left: 12px;
     padding: 2%;
     width: 30%;
 }
@@ -107,4 +104,68 @@ h3{
 }
 .goals-bg-color{
     background-color: #FFF4D6;
+}
+
+/*!--Develop Without Limits Section Start-->*/
+
+
+.develop-image img{
+    width: 80%;
+}
+.half-image{
+    width: 40%;
+}
+
+.half-contain{
+    width: 60%;
+}
+.develop-contain{
+    margin-top: 2%;
+}
+.develop-contain h2{
+    font-size: 36px;
+    margin: 0;
+    font-weight: 700;
+}
+.develop-contain p{
+    margin-bottom: 30px;
+}
+
+/*<!--Community section Start-->*/
+
+.community-section-bg{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 211px;
+    background-size: 220px;
+}
+.community-contain{
+    margin-top: 2%;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-right: 30px;
+}
+    
+
+.community-contain h2{
+    font-size: 36px;
+    margin: 0;
+    font-weight: 700;
+}
+
+
+    /*Footer section Start*/
+
+
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    color: white;
+    padding: 25px 0px;
+}
+
+footer h1{
+    font-family: 'Lobster', cursive;
+    
 }

@@ -1,60 +1,62 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: normal;
     color: #3E3E3E;
     margin: 0;
-  }
-  h1{
-      font-size: 50px;
-  }
-  
-  section{
-      margin-bottom: 80px;
-  }
-.template{
+}
+
+h1 {
+    font-size: 50px;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+.template {
     margin-left: 130px;
     margin-right: 130px;
 }
-.flexable-container{
+
+.flexable-container {
     display: flex;
 }
-.banner-half{
-    width: 50%;   
+
+.banner-half {
+    width: 50%;
 }
-.mission-color{
+
+.mission-color {
     color: #FF5959;
 }
 
-.link-btn{
+.link-btn {
     text-decoration: none;
     background: #FFAD5A;
     border-radius: 5px;
     color: white;
     padding: 10px 30px;
-    
+
 }
 
-/*top banner section start*/
+/*Top banner section start*/
 
-.stay-padding{
-    padding-top: 50px;
-}
-
-.stay{
+.stay {
     margin-top: 150px;
 }
-#stay-font{
+
+#stay-font {
     font-family: 'Yeseva One', cursive;
     font-size: 40px;
 }
 
-#stay-font h1{
+#stay-font h1 {
     font-weight: normal;
     margin: 10px;
 }
 
-#stay-left-bar{
+#stay-left-bar {
     float: left;
     height: 95px;
     border: 3px solid #FFAD5A;
@@ -64,112 +66,126 @@ body{
     margin-right: 10px;
 }
 
-
-
-.banner-half img{
+.banner-half img {
     width: 70%;
     padding-left: 5%;
 
 }
-.stay-discription p{
+
+.stay-discription p {
     width: 70%;
     margin-top: 40px;
     margin-bottom: 25px;
 }
 
-/*<!--Mission banner section Start-->*/
+/*Mission banner section Start*/
 
-.mission-banner-header{
+.mission-banner-header {
     text-align: center;
 }
-.mission-banner-item{
+
+.mission-banner-item {
     border-radius: 26px;
     margin-right: 12px;
     margin-left: 12px;
     padding: 2%;
     width: 30%;
 }
-h3{
+
+h3 {
     color: #000;
 }
-.mission-banner-item img{
+
+.mission-banner-item img {
     width: 40%;
 }
 
-.mission-bg-color{
+.mission-bg-color {
     background-color: #EDF5F6;
 }
-.vission-bg-color{
+
+.vission-bg-color {
     background-color: #FFEEEE;
 }
-.goals-bg-color{
+
+.goals-bg-color {
     background-color: #FFF4D6;
 }
 
-/*!--Develop Without Limits Section Start-->*/
+/*Develop Without Limits Section Start*/
 
 
-.develop-image img{
+.develop-image img {
     width: 80%;
 }
-.half-image{
+
+.half-image {
     width: 40%;
 }
 
-.half-contain{
+.half-contain {
     width: 60%;
 }
-.develop-contain{
+
+.develop-contain {
     margin-top: 2%;
 }
-.develop-contain h2{
+
+.develop-contain h2 {
     font-size: 36px;
     margin: 0;
     font-weight: 700;
 }
-.develop-contain p{
+
+.develop-contain p {
     margin-bottom: 30px;
 }
 
-/*<!--Community section Start-->*/
+/*<Community section Start*/
 
 
-.community-contain{
+.community-contain {
     margin-top: 2%;
     margin-left: 130px;
     margin-right: 130px;
     padding-right: 30px;
 }
-    
 
-.community-contain h2{
+
+.community-contain h2 {
     font-size: 36px;
     margin: 0;
     font-weight: 700;
 }
 
 
-/*extra-bg*/
-.extra-bg{
+/*Projects Section Start*/
+
+.project-bg {
     background-color: #FFAD5A;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     text-align: center;
 }
 
-.extra-bg h1 {
+.project-bg h1 {
     font-size: 50px;
     padding-top: 20px;
 }
-.extra-bg p{
-    margin: 30px  100px;
+
+.project-bg p {
+    margin: 30px 100px;
 }
-.startup-color{
+
+.startup-color {
     color: white;
 }
 
-.live-project{margin-top: 10px;}
-.web{
+.live-project {
+    margin-top: 10px;
+}
+
+.web {
     width: 30%;
     box-shadow: 0px 0px 30px #3e3e3e;
     border: 0px solid black;
@@ -177,7 +193,8 @@ h3{
     padding: 0;
     border-radius: 20px;
 }
-.web-btn{
+
+.web-btn {
     text-decoration: none;
     background: tomato;
     border-radius: 5px;
@@ -185,30 +202,30 @@ h3{
     padding: 10px 30px;
 }
 
-.web img{
+.web img {
     width: 100%;
 }
-.link-btn-live{
+
+.link-btn-live {
     text-decoration: none;
     background: #FFAD5A;
     border-radius: 5px;
     color: white;
     padding: 10px 30px;
     margin-left: 35%;
-    
+
 }
 
-    /*Footer section Start*/
+/*Footer section Start*/
 
-
-footer{
+footer {
     background-color: #0B0D17;
     text-align: center;
     color: white;
     padding: 25px 0px;
 }
 
-footer h1{
+footer h1 {
     font-family: 'Lobster', cursive;
-    font-weight:normal;
+    font-weight: normal;
 }

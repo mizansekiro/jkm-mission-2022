@@ -133,13 +133,7 @@ h3{
 
 /*<!--Community section Start-->*/
 
-.community-section-bg{
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: 211px;
-    background-size: 220px;
-}
+
 .community-contain{
     margin-top: 2%;
     margin-left: 130px;
@@ -155,6 +149,47 @@ h3{
 }
 
 
+/*extra-bg*/
+.extra-bg{
+    background-color: #FFAD5A;
+    border-radius: 10px;
+    text-align: center;
+}
+.extra-bg p{
+    margin: 20px 100px;
+}
+.startup-color{
+    color: white;
+}
+.web{
+    width: 30%;
+    box-shadow: 0px 0px 30px #3e3e3e;
+    border: 0px solid black;
+    margin: 20px;
+    padding: 0;
+    border-radius: 20px;
+}
+.web-btn{
+    text-decoration: none;
+    background: tomato;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+}
+
+.web img{
+    width: 100%;
+}
+.link-btn-live{
+    text-decoration: none;
+    background: #FFAD5A;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 35%;
+    
+}
+
     /*Footer section Start*/
 
 
@@ -167,5 +202,5 @@ footer{
 
 footer h1{
     font-family: 'Lobster', cursive;
-    
+    font-weight:normal;
 }
